@@ -1,0 +1,654 @@
+{
+  "$id": "ce_location",
+  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
+  "entityType": "location",
+  "displayName": "Location",
+  "presentationEntries": [
+    {
+      "displayName": "Content",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Contenu"
+        }
+      ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Core Information",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Informations principales"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "name",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "categories",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "address",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "addressHidden"
+        },
+        {
+          "id": "serviceAreaPlaces"
+        },
+        {
+          "id": "mainPhone",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "alternatePhone"
+        },
+        {
+          "id": "mobilePhone"
+        },
+        {
+          "id": "description"
+        },
+        {
+          "id": "websiteUrl"
+        },
+        {
+          "id": "menuUrl"
+        },
+        {
+          "id": "orderUrl"
+        },
+        {
+          "id": "reservationUrl"
+        },
+        {
+          "id": "deliveryUrl"
+        },
+        {
+          "id": "entityId",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "c_sIRET"
+        }
+      ]
+    },
+    {
+      "displayName": "Business Details",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Détails de l\u0027entreprise"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "hours"
+        },
+        {
+          "id": "additionalHoursText"
+        },
+        {
+          "id": "phoneticName"
+        },
+        {
+          "id": "paymentOptions"
+        },
+        {
+          "id": "priceRange"
+        },
+        {
+          "id": "impressum"
+        },
+        {
+          "id": "featuredMessage"
+        },
+        {
+          "id": "emails"
+        },
+        {
+          "id": "yearEstablished"
+        },
+        {
+          "id": "products"
+        },
+        {
+          "id": "services"
+        },
+        {
+          "id": "specialities"
+        },
+        {
+          "id": "brands"
+        },
+        {
+          "id": "languages"
+        },
+        {
+          "id": "keywords"
+        }
+      ]
+    },
+    {
+      "displayName": "Contact, Websites and Apps",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Contacts, sites Internet et applications"
+        }
+      ],
+      "entryType": "SECTION"
+    },
+    {
+      "displayName": "Media",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Médias"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "logo"
+        },
+        {
+          "id": "photoGallery"
+        },
+        {
+          "id": "videos"
+        }
+      ]
+    },
+    {
+      "displayName": "Linked Accounts",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Comptes liés"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "facebookLinkedAccount"
+        },
+        {
+          "id": "gmbLinkedAccount"
+        },
+        {
+          "id": "linkedinLinkedAccount"
+        }
+      ]
+    },
+    {
+      "displayName": "Social Media",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Réseaux sociaux"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "twitterHandle"
+        },
+        {
+          "id": "facebookPageUrl"
+        },
+        {
+          "id": "instagramHandle"
+        },
+        {
+          "id": "linkedInUrl"
+        },
+        {
+          "id": "pinterestUrl"
+        },
+        {
+          "id": "tikTokUrl"
+        },
+        {
+          "id": "youTubeChannelUrl"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Enhanced Content Lists",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Listes de contenu optimisées"
+        }
+      ],
+      "entryType": "SECTION"
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Additional Attributes",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Caractéristiques supplémentaires"
+        }
+      ],
+      "entryType": "SECTION"
+    },
+    {
+      "displayName": "Landing Pages",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Landing pages"
+        }
+      ],
+      "entryType": "SECTION"
+    },
+    {
+      "displayName": "Additional Hours",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Horaires supplémentaires"
+        }
+      ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Accessibility",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Accessibilité"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "onlineServiceHours"
+        },
+        {
+          "id": "seniorHours"
+        },
+        {
+          "id": "accessHours"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Order Pickup",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Retrait des commandes"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "pickupHours"
+        },
+        {
+          "id": "driveThroughHours"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Food and Drink",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Plats et boissons"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "kitchenHours"
+        },
+        {
+          "id": "brunchHours"
+        },
+        {
+          "id": "happyHours"
+        },
+        {
+          "id": "dineInHours"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Takeaway and Delivery",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Vente é emporter et livraison"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "takeoutHours"
+        },
+        {
+          "id": "deliveryHours"
+        },
+        {
+          "id": "pickupAndDeliveryServices"
+        }
+      ]
+    },
+    {
+      "displayName": "Publisher Specific",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Spécifique é l\u0027annuaire"
+        }
+      ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Google Business Profile Fields",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Champs de fiche d\u0027établissement Google"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "googleEntityRelationship"
+        },
+        {
+          "id": "googleCoverPhoto"
+        },
+        {
+          "id": "googleProfilePhoto"
+        },
+        {
+          "id": "googleVideoGallery"
+        },
+        {
+          "id": "googleWebsiteOverride"
+        },
+        {
+          "id": "googlePlaceId"
+        },
+        {
+          "id": "googleMyBusinessLabels"
+        },
+        {
+          "id": "googleAttributes"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Google Business Profile Attributes",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Caractéristiques Google Business Profile"
+        }
+      ],
+      "entryType": "SECTION"
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Facebook Fields",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Champs Facebook"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "facebookCoverPhoto"
+        },
+        {
+          "id": "facebookProfilePhoto"
+        },
+        {
+          "id": "facebookOverrideCity"
+        },
+        {
+          "id": "facebookName"
+        },
+        {
+          "id": "facebookDescriptor"
+        },
+        {
+          "id": "facebookVanityUrl"
+        },
+        {
+          "id": "facebookAbout"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Apple Fields",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Champs Apple"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "appleCompanyId"
+        },
+        {
+          "id": "appleBusinessId"
+        },
+        {
+          "id": "appleBusinessDescription"
+        },
+        {
+          "id": "appleCoverPhoto"
+        },
+        {
+          "id": "appleActionLinks"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Bing Fields",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Champs Bing"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "bingRelationshipType"
+        },
+        {
+          "id": "bingParentLocation"
+        },
+        {
+          "id": "bingAdAccountNumber"
+        },
+        {
+          "id": "bingAdCampaign"
+        },
+        {
+          "id": "bingAdGroup"
+        },
+        {
+          "id": "bingAdProfession"
+        }
+      ]
+    },
+    {
+      "displayName": "Other",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Autre"
+        }
+      ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Internal Use Only",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Usage interne uniquement"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "closed"
+        },
+        {
+          "id": "folder"
+        },
+        {
+          "id": "labels"
+        },
+        {
+          "id": "googleAccountId"
+        },
+        {
+          "id": "isoRegionCode"
+        },
+        {
+          "id": "deliverListingsWithoutGeocode"
+        },
+        {
+          "id": "timezone"
+        },
+        {
+          "id": "slug"
+        }
+      ]
+    },
+    {
+      "displayName": "Other Fields",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "autres domaines"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "geomodifier"
+        },
+        {
+          "id": "neighborhood"
+        },
+        {
+          "id": "what3WordsAddress"
+        },
+        {
+          "id": "covidMessaging"
+        },
+        {
+          "id": "proofOfVaccinationRequired"
+        },
+        {
+          "id": "fullyVaccinatedStaff"
+        },
+        {
+          "id": "googleAdministratorEmail"
+        },
+        {
+          "id": "tollFreePhone"
+        },
+        {
+          "id": "fax"
+        },
+        {
+          "id": "ttyPhone"
+        },
+        {
+          "id": "iosAppUrl"
+        },
+        {
+          "id": "androidAppUrl"
+        },
+        {
+          "id": "covid19InformationUrl"
+        },
+        {
+          "id": "localPhone"
+        },
+        {
+          "id": "productLists"
+        },
+        {
+          "id": "bios"
+        },
+        {
+          "id": "associations"
+        },
+        {
+          "id": "landingPageUrl"
+        }
+      ]
+    },
+    {
+      "displayName": "Settings",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Paramétres"
+        }
+      ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Knowledge Assistant",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Assistant Knowledge"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "primaryConversationContact"
+        },
+        {
+          "id": "holidayHoursConversationEnabled"
+        },
+        {
+          "id": "reviewResponseConversationEnabled"
+        },
+        {
+          "id": "nudgeEnabled"
+        }
+      ]
+    }
+  ]
+}

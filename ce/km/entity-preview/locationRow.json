@@ -1,0 +1,77 @@
+{
+  "$id": "ce_locationRow",
+  "$schema": "https://schema.yext.com/config/km/entity-preview/v1",
+  "displayName": {
+    "default": "Location",
+    "translations": []
+  },
+  "entityType": "location",
+  "previewType": "ROW",
+  "previewSettings": {
+    "showEntityTypeName": false,
+    "showEntityTypeSymbol": true,
+    "fieldSettingsList": [
+      {
+        "fieldIdentifier": {
+          "fieldId": "name",
+          "propertyNames": []
+        },
+        "fieldKind": "STRING",
+        "stringConfiguration": {
+          "isEmphasizedField": true,
+          "showFieldName": false,
+          "lineHeight": 1
+        }
+      },
+      {
+        "fieldIdentifier": {
+          "fieldId": "address",
+          "propertyNames": []
+        },
+        "fieldKind": "STRING",
+        "stringConfiguration": {
+          "isEmphasizedField": false,
+          "showFieldName": true,
+          "lineHeight": 2
+        },
+        "displayedSubfields": [
+          "line1",
+          "line2",
+          "line3",
+          "sublocality",
+          "city",
+          "region",
+          "postalCode"
+        ]
+      },
+      {
+        "fieldIdentifier": {
+          "fieldId": "categories",
+          "propertyNames": []
+        },
+        "fieldKind": "LIST",
+        "listConfiguration": {
+          "isEmphasizedField": false,
+          "showFieldName": true,
+          "lineHeight": 1,
+          "showListValue": true,
+          "showListCount": true
+        }
+      },
+      {
+        "fieldIdentifier": {
+          "fieldId": "websiteUrl",
+          "propertyNames": [
+            "url"
+          ]
+        },
+        "fieldKind": "STRING",
+        "stringConfiguration": {
+          "isEmphasizedField": false,
+          "showFieldName": true,
+          "lineHeight": 1
+        }
+      }
+    ]
+  }
+}
